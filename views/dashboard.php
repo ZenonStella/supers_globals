@@ -1,10 +1,10 @@
 <?php 
-// $session_start();
+session_start();
 var_dump($_SESSION['user']);
-require('../inc/header.php');
 require_once '../controllers/dashboard-controller.php';
+include('../inc/header.php');
 ?>
-<!-- <h1>identifient : <?= $_SESSION['name'] ?></h1> -->
+<h1 class="mt-5">Bonjour <?= $_SESSION['user']['lastname'] ?>, bienvenu sur le dashboard</h1>
 
 <?php 
-require('../inc/footer.php');
+include('../inc/footer.php');

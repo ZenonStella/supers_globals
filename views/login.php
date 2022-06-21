@@ -1,7 +1,8 @@
 <?php 
-require('../inc/header.php');
+
 require_once '../controllers/login-controller.php';
 // session_start();
+include('../inc/header.php');
 ?>
  <h1 class="m-5 text-center">Formulaire d'identification</h1>
     <form action="" method="POST">
@@ -25,4 +26,4 @@ require_once '../controllers/login-controller.php';
         </div>
     </form>
 <?php 
-require('../inc/footer.php');
+include('../inc/footer.php');

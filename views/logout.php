@@ -1,8 +1,8 @@
 <?php 
-require('../inc/header.php');
 require_once '../controllers/logout-controller.php';
 
+include('../inc/header.php');
 ?>
 
 <?php 
-require('../inc/footer.php');
+include('../inc/footer.php');
