@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley&display=swap');
+body {
+    font-family: 'Radley', serif;
+}
+.img {
+    height: 5rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.logo {
+    width: 10%;
+}
